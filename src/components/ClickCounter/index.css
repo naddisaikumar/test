@@ -1,0 +1,41 @@
+/* Write your CSS here */
+.container {
+  background-color: #f1f5f8;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.card-headding {
+  color: #2d3a35;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: 'roboto';
+}
+
+.counter-value{
+  color: #c20a72;
+}
+
+.card-description {
+  font-size: 18px;
+  color: #2d3a35;
+}
+
+.card-btn {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 15px;
+  border-width: solid 1px;
+  border: none;
+  height: 30px;
+  width: 80px;
+}
+
+@media screen and (min-width:768px){
+  .card-headding{
+    font-size: 50px;
+  }
+}
